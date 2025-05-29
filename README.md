@@ -6,14 +6,6 @@
 
 本项目实现了在 Caltech-101 数据集上微调预训练的卷积神经网络(ResNet-18)进行图像分类。项目包含完整的训练流程、超参数搜索和性能评估。
 
-## 项目亮点
-
-- ✅ 使用 Caltech-101 标准数据集划分
-- ✅ 修改 ResNet-18 架构以适应 101 个类别
-- ✅ 支持预训练模型微调与从头训练对比
-- ✅ 自动化超参数搜索
-- ✅ TensorBoard 可视化训练过程
-- ✅ 详细的实验报告和结果分析
 
 ## 目录结构
 
@@ -37,6 +29,7 @@ caltech101-classification/
 # 克隆仓库
 git clone https://github.com/yourusername/caltech101-classification.git
 cd caltech101-classification
+```
 
 项目需要以下 Python 库：
 
